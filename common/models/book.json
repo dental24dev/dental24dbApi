@@ -1,0 +1,47 @@
+{
+  "name": "book",
+  "plural": "book",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "string",
+      "required": true
+    },
+    "cant": {
+      "type": "number",
+      "required": true
+    },
+    "adelanto": {
+      "type": "string",
+      "required": true
+    },
+    "resto": {
+      "type": "string",
+      "required": true
+    },
+    "monto": {
+      "type": "string",
+      "required": true
+    },
+    "precioUni": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

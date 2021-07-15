@@ -1,0 +1,42 @@
+{
+  "name": "glit",
+  "plural": "glit",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "category": {
+      "type": "object",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    },
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "usdPrice": {
+      "type": "number",
+      "required": true
+    },
+    "notes": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "3.13.253.117",
+    "port": 25018,
+    "url": "",
+    "database":"dental24DB",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

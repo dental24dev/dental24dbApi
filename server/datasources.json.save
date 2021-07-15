@@ -1,0 +1,13 @@
+tixsDB{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "busakDB",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
