@@ -1,0 +1,40 @@
+{
+  "name": "patient",
+  "plural": "patient",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    
+    "userd": {
+      "type": "string"
+    },
+    "usertype": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

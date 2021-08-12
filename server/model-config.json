@@ -46,6 +46,18 @@
   "card": {
     "dataSource": "db",
     "public": true
+  }, 
+"dentist": {
+    "dataSource": "db",
+    "public": true
+  }, 
+"patient": {
+    "dataSource": "db",
+    "public": true
+  }, 
+"specialty": {
+    "dataSource": "db",
+    "public": true
   },
   "book": {
     "dataSource": "db",
